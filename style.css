@@ -1,0 +1,82 @@
+body {
+	margin: 0; 
+	background-color:#000000; 
+	background-repeat:repeat-x; 
+	direction: rtl;
+	font-family: tahoma,arial,helvetica,sans-serif;
+	font-size: 1.2em;
+	color: white;
+}
+
+header {
+	margin-top: 50px;
+	display: block;
+	text-align: center;
+}
+
+nav {
+	display: inline-block;
+	margin: auto;
+	width: 70%;
+	text-align: right;
+}
+
+ul {
+	margin: auto; 
+	float: right;
+	width: 100%; 
+	list-style-type:none;
+	padding: 20px;
+}
+
+.medicineList{
+	list-style: none; 
+	float:right; 
+	display:block; 
+	text-align: right;
+	padding-right: 10px;
+}
+
+.supplementList{
+	list-style: none; 
+	float:right; 
+	display:block; 
+	text-align: right;
+	padding-right: 10px;
+}
+
+
+a {
+	width:6em;
+	text-decoration:none;
+	color:white;
+	background-color:black;
+	padding:0.2em 0.6em;
+	border-left:0px solid white;
+}
+
+a:hover {background-color:#000000;}
+
+li {display:inline;}
+
+footer {
+	background-color:#000000;
+	margin-top: 80px;
+	clear:both;
+	text-align:center;
+}
+
+section {
+	display: block;
+	text-align: center;
+}
+
+section div {
+	text-align: right;
+	padding-right: 10px;
+}
+
+#googleMap {
+	display: inline;
+	float: left;
+}
